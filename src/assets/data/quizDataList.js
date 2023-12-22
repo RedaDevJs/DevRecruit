@@ -2,386 +2,386 @@ export const quizDataList = [
     {
         id: 1,
         speciality: "frontend",
-        question: "Qu'est-ce que signifie l'acronyme HTML?",
+        question: "What does the acronym HTML stand for?",
         option: [
             "Hypertext Markup Language",
             "Hyperlink and Text Markup Language",
             "High-Level Text Markup Language",
         ],
-        answer: "Hypertext Markup Language"
+        answer: 0
     },
     {
         id: 2,
         speciality: "frontend",
-        question: "Quel langage de programmation est principalement utilisé pour le développement frontend?",
+        question: "Which programming language is primarily used for frontend development?",
         option: [
             "Python",
             "JavaScript",
             "Java",
         ],
-        answer: "JavaScript"
+        answer: 1
     },
     {
         id: 3,
         speciality: "frontend",
-        question: "Quelle est la fonction principale de CSS dans le développement web?",
+        question: "What is the main function of CSS in web development?",
         option: [
-            "Gestion des bases de données",
-            "Style et mise en page",
-            "Logique côté serveur",
+            "Database management",
+            "Styling and layout",
+            "Server-side logic",
         ],
-        answer: "Style et mise en page"
+        answer: 1
     },
     {
         id: 4,
         speciality: "frontend",
-        question: "Qu'est-ce que signifie l'acronyme AJAX?",
+        question: "What does the acronym AJAX stand for?",
         option: [
             "Asynchronous JavaScript and XML",
             "Advanced JavaScript and XML",
             "Asynchronous Java and XML",
         ],
-        answer: "Asynchronous JavaScript and XML"
+        answer: 0
     },
     {
         id: 5,
         speciality: "frontend",
-        question: "Quel est le rôle de Git dans le développement frontend?",
+        question: "What is the role of Git in frontend development?",
         option: [
-            "Gestion de projet",
-            "Contrôle de version",
-            "Serveur web",
+            "Project management",
+            "Version control",
+            "Web server",
         ],
-        answer: "Contrôle de version"
+        answer: 1
     },
     {
         id: 6,
         speciality: "frontend",
-        question: "Quelle est la bibliothèque JavaScript populaire pour la construction d'interfaces utilisateur?",
+        question: "What is the popular JavaScript library for building user interfaces?",
         option: [
             "jQuery",
             "React",
             "Angular",
         ],
-        answer: "React"
+        answer: 1
     },
     {
         id: 7,
         speciality: "frontend",
-        question: "Quel outil est utilisé pour gérer les dépendances dans un projet JavaScript?",
+        question: "Which tool is used to manage dependencies in a JavaScript project?",
         option: [
             "npm (Node Package Manager)",
             "Git",
             "Django",
         ],
-        answer: "npm (Node Package Manager)"
+        answer: 0
     },
     {
         id: 8,
         speciality: "frontend",
-        question: "Qu'est-ce que signifie l'acronyme API dans le contexte du développement frontend?",
+        question: "What does the acronym API mean in the context of frontend development?",
         option: [
             "Application Programming Interface",
             "Advanced Programming Interface",
             "Application Process Integration",
         ],
-        answer: "Application Programming Interface"
+        answer: 0
     },
     {
         id: 9,
         speciality: "frontend",
-        question: "Quelle méthode HTTP est généralement utilisée pour récupérer des données depuis un serveur?",
+        question: "Which HTTP method is commonly used to retrieve data from a server?",
         option: [
             "POST",
             "GET",
             "DELETE",
         ],
-        answer: "GET"
+        answer: 1
     },
     {
         id: 10,
         speciality: "frontend",
-        question: "Quel concept JavaScript permet d'éviter les blocages d'E/S en utilisant des rappels?",
+        question: "Which JavaScript concept helps to avoid I/O blocking using callbacks?",
         option: [
             "Promises",
             "Callbacks",
             "Async/Await",
         ],
-        answer: "Callbacks"
+        answer: 1
     },
     {
         id: 11,
         speciality: "backend",
-        question: "Quelle est la principale fonction d'un serveur dans le développement backend?",
+        question: "What is the main function of a server in backend development?",
         option: [
-            "Traitement côté client",
-            "Traitement côté serveur",
-            "Interface utilisateur",
+            "Client-side processing",
+            "Server-side processing",
+            "User interface",
         ],
-        answer: "Traitement côté serveur"
+        answer: 1
     },
     {
         id: 12,
         speciality: "backend",
-        question: "Quel langage de programmation est couramment utilisé pour le développement backend?",
+        question: "Which programming language is commonly used for backend development?",
         option: [
             "HTML",
             "JavaScript",
             "Python",
         ],
-        answer: "Python"
+        answer: 2
     },
     {
         id: 13,
         speciality: "backend",
-        question: "Qu'est-ce que signifie l'acronyme SQL dans le contexte des bases de données?",
+        question: "What does the acronym SQL mean in the context of databases?",
         option: [
             "Structured Language Query",
             "Standardized Query Language",
             "Structured Query Language",
         ],
-        answer: "Structured Query Language"
+        answer: 2
     },
     {
         id: 14,
         speciality: "backend",
-        question: "Quel est le principe de l'injection de dépendances dans le développement backend?",
+        question: "What is the principle of dependency injection in backend development?",
         option: [
-            "Passer des paramètres à une fonction",
-            "Inclure des bibliothèques externes",
-            "Fournir des composants ou services à une classe",
+            "Passing parameters to a function",
+            "Including external libraries",
+            "Providing components or services to a class",
         ],
-        answer: "Fournir des composants ou services à une classe"
+        answer: 2
     },
     {
         id: 15,
         speciality: "backend",
-        question: "Qu'est-ce que représente REST dans le contexte des services web?",
+        question: "What does REST represent in the context of web services?",
         option: [
             "Remote Service Technology",
             "Representational State Transfer",
             "Request and Service Technology",
         ],
-        answer: "Representational State Transfer"
+        answer: 1
     },
     {
         id: 16,
         speciality: "backend",
-        question: "Quel est le rôle d'un ORM dans le développement backend?",
+        question: "What is the role of an ORM in backend development?",
         option: [
             "Optimize Resource Management",
             "Object-Relational Mapping",
             "Online Resource Management",
         ],
-        answer: "Object-Relational Mapping"
+        answer: 1
     },
     {
         id: 17,
         speciality: "backend",
-        question: "Qu'est-ce que le modèle MVC dans le contexte du développement backend?",
+        question: "What is the MVC model in the context of backend development?",
         option: [
             "Model View Control",
             "Model View Component",
             "Model Visual Control",
         ],
-        answer: "Model View Control"
+        answer: 0
     },
     {
         id: 18,
         speciality: "backend",
-        question: "Quel langage de requête est couramment utilisé avec les bases de données relationnelles?",
+        question: "Which query language is commonly used with relational databases?",
         option: [
             "JSON",
             "SQL",
             "XML",
         ],
-        answer: "SQL"
+        answer: 1
     },
     {
         id: 19,
         speciality: "backend",
-        question: "Quelle méthode HTTP est généralement utilisée pour créer une nouvelle ressource sur le serveur?",
+        question: "Which HTTP method is generally used to create a new resource on the server?",
         option: [
             "GET",
             "POST",
             "PUT",
         ],
-        answer: "POST"
+        answer: 1
     },
     {
         id: 20,
         speciality: "backend",
-        question: "Qu'est-ce que représente l'acronyme JWT dans le contexte de l'authentification?",
+        question: "What does the acronym JWT represent in the context of authentication?",
         option: [
             "Java Web Token",
             "JSON Web Token",
             "JavaScript Web Token",
         ],
-        answer: "JSON Web Token"
+        answer: 1
     },
     {
         id: 21,
         speciality: "backend",
-        question: "Quel design pattern est utilisé pour gérer les connexions à une base de données?",
+        question: "Which design pattern is used to manage connections to a database?",
         option: [
             "Singleton",
             "Observer",
             "Strategy",
         ],
-        answer: "Singleton"
+        answer: 0
     },
     {
         id: 22,
         speciality: "backend",
-        question: "Quel est le principal avantage de l'utilisation d'un conteneur comme Docker dans le développement backend?",
+        question: "What is the main advantage of using a container like Docker in backend development?",
         option: [
-            "Isolation des applications",
-            "Optimisation des ressources",
-            "Gestion des interfaces utilisateur",
+            "Isolation of applications",
+            "Optimization of resources",
+            "Management of user interfaces",
         ],
-        answer: "Isolation des applications"
+        answer: 0
     },
     {
         id: 23,
         speciality: "backend",
-        question: "Quelle est la différence entre une clé primaire et une clé étrangère dans une base de données relationnelle?",
+        question: "What is the difference between a primary key and a foreign key in a relational database?",
         option: [
-            "La clé primaire identifie de manière unique une ligne dans la table, tandis que la clé étrangère établit une relation avec une autre table.",
-            "La clé primaire est utilisée pour trier les données, tandis que la clé étrangère est utilisée pour filtrer les résultats de la requête.",
-            "La clé primaire peut être nulle, tandis que la clé étrangère doit toujours avoir une valeur.",
+            "The primary key uniquely identifies a row in the table, while the foreign key establishes a relationship with another table.",
+            "The primary key is used for sorting data, while the foreign key is used to filter query results.",
+            "The primary key can be null, while the foreign key must always have a value.",
         ],
-        answer: "La clé primaire identifie de manière unique une ligne dans la table, tandis que la clé étrangère établit une relation avec une autre table."
+        answer: 0
     },
     {
         id: 24,
         speciality: "backend",
-        question: "Qu'est-ce que le concept de `Middleware` dans le développement backend?",
+        question: "What does the concept of 'Middleware' mean in backend development?",
         option: [
-            "Un logiciel qui connecte des composants logiciels distincts",
-            "Un type particulier de base de données",
-            "Un algorithme de chiffrement avancé",
+            "Software that connects separate software components",
+            "A particular type of database",
+            "An advanced encryption algorithm",
         ],
-        answer: "Un logiciel qui connecte des composants logiciels distincts"
+        answer: 0
     },
     {
         id: 25,
         speciality: "backend",
-        question: "Qu'est-ce que représente le terme `Scalabilité` dans le contexte du développement backend?",
+        question: "What does the term 'Scalability' represent in the context of backend development?",
         option: [
-            "La capacité d'une application à gérer une charge croissante en augmentant les ressources matérielles.",
-            "Le nombre total de lignes de code dans un projet.",
-            "La vitesse à laquelle une application traite les requêtes utilisateur.",
+            "The ability of an application to handle increasing load by increasing hardware resources.",
+            "The total number of lines of code in a project.",
+            "The speed at which an application processes user requests.",
         ],
-        answer: "La capacité d'une application à gérer une charge croissante en augmentant les ressources matérielles."
+        answer: 0
     },
     {
         id: 26,
         speciality: "backend",
-        question: "Qu'est-ce que le protocole HTTP?",
+        question: "What is the HTTP protocol?",
         option: [
             "Hypertext Transfer Protocol",
             "High-Level Text Processing",
             "Hyperlink and Text Protocol",
         ],
-        answer: "Hypertext Transfer Protocol"
+        answer: 0
     },
     {
         id: 27,
         speciality: "backend",
-        question: "Qu'est-ce que représente le terme `Caching` dans le contexte des applications web?",
+        question: "What does the term 'Caching' represent in the context of web applications?",
         option: [
-            "Le stockage temporaire de données pour améliorer les performances.",
-            "La création de copies de sauvegarde des fichiers de configuration.",
-            "Le cryptage des données pour assurer la sécurité.",
+            "The temporary storage of data to improve performance.",
+            "Creating backup copies of configuration files.",
+            "Data encryption to ensure security.",
         ],
-        answer: "Le stockage temporaire de données pour améliorer les performances."
+        answer: 0
     },
     {
         id: 28,
         speciality: "backend",
-        question: "Quel est le rôle d'un serveur proxy dans le développement backend?",
+        question: "What is the role of a proxy server in backend development?",
         option: [
-            "Faciliter la communication entre un client et un serveur.",
-            "Générer des rapports sur l'utilisation du réseau.",
-            "Contrôler l'accès aux ressources du serveur.",
+            "Facilitating communication between a client and a server.",
+            "Generating reports on network usage.",
+            "Controlling access to server resources.",
         ],
-        answer: "Faciliter la communication entre un client et un serveur."
+        answer: 0
     },
     {
         id: 29,
         speciality: "backend",
-        question: "Quelle est la principale différence entre HTTP et HTTPS?",
+        question: "What is the main difference between HTTP and HTTPS?",
         option: [
-            "La rapidité de transfert des données.",
-            "La sécurité des données transférées.",
-            "Le type de médias pris en charge.",
+            "The speed of data transfer.",
+            "The security of transferred data.",
+            "The type of media supported.",
         ],
-        answer: "La sécurité des données transférées."
+        answer: 1
     },
     {
         id: 30,
         speciality: "backend",
-        question: "Qu'est-ce que signifie l'acronyme CRUD dans le contexte des opérations sur une base de données?",
+        question: "What does the acronym CRUD mean in the context of database operations?",
         option: [
             "Create, Retrieve, Update, Delete",
             "Compile, Run, Update, Debug",
             "Copy, Read, Upload, Download",
         ],
-        answer: "Create, Retrieve, Update, Delete"
+        answer: 0
     },
     {
         id: 31,
         speciality: "backend",
-        question: "Qu'est-ce que le modèle de conception de base de données relationnelles?",
+        question: "What is the model for designing relational databases?",
         option: [
             "Entity-Relationship Model",
             "Model-View-Controller",
             "Observer Pattern",
         ],
-        answer: "Entity-Relationship Model"
+        answer: 0
     },
     {
         id: 32,
         speciality: "backend",
-        question: "Qu'est-ce que le terme `Normalization` signifie dans le contexte des bases de données?",
+        question: "What does the term 'Normalization' mean in the context of databases?",
         option: [
-            "Un processus visant à minimiser la redondance des données.",
-            "Un algorithme de tri des données.",
-            "La conversion de données en un format standard.",
+            "A process aimed at minimizing data redundancy.",
+            "A data sorting algorithm.",
+            "Converting data into a standard format.",
         ],
-        answer: "Un processus visant à minimiser la redondance des données."
+        answer: 0
     },
     {
         id: 33,
         speciality: "backend",
-        question: "Quelle est la différence entre une session et un cookie dans le contexte des applications web?",
+        question: "What is the difference between a session and a cookie in the context of web applications?",
         option: [
-            "Une session est stockée côté serveur, tandis qu'un cookie est stocké côté client.",
-            "Une session est utilisée pour le stockage de fichiers, tandis qu'un cookie stocke des informations de session.",
-            "Une session ne stocke que des données temporaires, tandis qu'un cookie stocke des données permanentes.",
+            "A session is stored server-side, while a cookie is stored client-side.",
+            "A session is used for file storage, while a cookie stores session information.",
+            "A session only stores temporary data, while a cookie stores permanent data.",
         ],
-        answer: "Une session est stockée côté serveur, tandis qu'un cookie est stocké côté client."
+        answer: 0
     },
     {
         id: 34,
         speciality: "backend",
-        question: "Qu'est-ce que l'authentification à deux facteurs?",
+        question: "What is two-factor authentication?",
         option: [
-            "Un processus utilisant deux méthodes d'identification pour renforcer la sécurité.",
-            "La vérification de l'identité par deux serveurs distincts.",
-            "La connexion simultanée de deux utilisateurs à un même compte.",
+            "A process using two identification methods to enhance security.",
+            "Verification of identity by two separate servers.",
+            "The simultaneous login of two users to the same account.",
         ],
-        answer: "Un processus utilisant deux méthodes d'identification pour renforcer la sécurité."
+        answer: 0
     },
     {
         id: 35,
         speciality: "backend",
-        question: "Qu'est-ce que le `WebSockets` dans le contexte du développement web?",
+        question: "What is 'WebSockets' in the context of web development?",
         option: [
-            "Une technologie de communication bidirectionnelle en temps réel entre le client et le serveur.",
-            "Une bibliothèque JavaScript populaire.",
-            "Un protocole de sécurité pour les connexions HTTP.",
+            "A technology for bidirectional real-time communication between the client and the server.",
+            "A popular JavaScript library.",
+            "A security protocol for HTTP connections.",
         ],
-        answer: "Une technologie de communication bidirectionnelle en temps réel entre le client et le serveur."
-    }
-]
+        answer: 0
+    },
+];
